@@ -21,6 +21,9 @@ public class BananaQuiz
 			JOptionPane.showMessageDialog(null, hobby + "is much better with bananas!");
 			
 		}
+		else {
+			JOptionPane.showMessageDialog(null, "!!!!SANANAB ERA UOY");
+		}
 			//tell them they are crazy 
 			//and end quiz
 		//3. if they say yes
