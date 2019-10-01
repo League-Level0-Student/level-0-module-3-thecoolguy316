@@ -20,7 +20,7 @@ String Wanda = JOptionPane.showInputDialog("How dizzy do you want the robot to b
 	}
 
 	static void dance(int numberOfSpins) {
-		for (int i = 0; i < numberOfSpins; i++) {
+		for (int i = 1; i < numberOfSpins; i++) {
 			robot.turn(360);
 		}
 	}
