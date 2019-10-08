@@ -15,10 +15,14 @@ rob.setX(45);
 rob.setSpeed(100);
 
 		// 2. Make the robot draw a star shape. Hint: 144.
+for (int i = 0; i < 6; i++) {
 for (int i1 = 0; i1 < 5; i1++) {
 rob.penDown();
 rob.turn(144);
-rob.move(30);
+rob.move(50);
+}
+rob.move(20);
+}
 		// 3. Set the size of the star to 30.
 
 		/** THE CHALLENGE: **/
@@ -32,4 +36,4 @@ rob.move(30);
 	}
 
 }
-}
+
